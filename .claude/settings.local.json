@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx:*)",
+      "Bash(tree:*)",
+      "Bash(flutter create:*)",
+      "Bash(flutter --version:*)",
+      "Read(//Users/symverse/.claude/skills/**)",
+      "Bash(mkdir:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
