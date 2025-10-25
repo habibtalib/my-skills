@@ -174,7 +174,7 @@ def generate_cards_from_topic(topic, bg_color, text_color, output_dir, base_file
             output_path=output_path,
             bg_color=bg_color,
             text_color=text_color,
-            number=None,  # Number badge removed
+            number=card['number'],
             bg_image_path=bg_image,
             overlay_opacity=overlay_opacity
         )

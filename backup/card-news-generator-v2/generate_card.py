@@ -136,8 +136,7 @@ def create_card_news(
     
     # Padding
     padding = 40
-    # Reduce max text width for more compact, square-like box
-    max_text_width = int(width * 0.65)  # Use 65% of canvas width instead of full width
+    max_text_width = width - (padding * 2)
     
     # Try to load fonts (fallback to default if not available)
     # Get script directory for relative font path
@@ -235,44 +234,9 @@ def create_card_news(
     spacing_between = 30
     total_content_height = number_height + title_height + spacing_between + content_height
     start_y = (height - total_content_height) // 2
-
-    # Draw semi-transparent box around text area (more compact, square-like)
-    box_padding = 40
-    # Calculate box width based on text width
-    box_width = max_text_width + (box_padding * 2)
-    box_height = total_content_height + (box_padding * 2)
-
-    # Center the box horizontally
-    box_left = (width - box_width) // 2
-    box_top = start_y - box_padding
-    box_right = box_left + box_width
-    box_bottom = start_y + total_content_height + box_padding
-
-    # Create semi-transparent black box
-    overlay_box = Image.new('RGBA', (width, height), (0, 0, 0, 0))
-    box_draw = ImageDraw.Draw(overlay_box)
-
-    # Draw filled box with transparency
-    box_draw.rounded_rectangle(
-        [(box_left, box_top), (box_right, box_bottom)],
-        radius=20,
-        fill=(0, 0, 0, 100)  # Semi-transparent black
-    )
-
-    # Draw border
-    box_draw.rounded_rectangle(
-        [(box_left, box_top), (box_right, box_bottom)],
-        radius=20,
-        outline=(255, 255, 255, 180),  # White border
-        width=3
-    )
-
-    # Composite the box onto the main image
-    img = Image.alpha_composite(img.convert('RGBA'), overlay_box).convert('RGB')
-    draw = ImageDraw.Draw(img)
-
+    
     current_y = start_y
-
+    
     # Draw number badge if provided
     if number is not None:
         number_text = str(number)
@@ -281,7 +245,7 @@ def create_card_news(
         number_x = (width - number_width) // 2
         draw.text((number_x, current_y), number_text, fill=text_color, font=number_font)
         current_y += bbox[3] - bbox[1] + 40
-
+    
     # Draw title
     for line in title_lines:
         bbox = draw.textbbox((0, 0), line, font=title_font)

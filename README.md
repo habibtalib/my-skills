@@ -178,6 +178,38 @@ Next.js와 React로 고품질 전환율 높은 랜딩페이지를 제작하기 �
 - 정보 전달용 카드 이미지
 - 교육/마케팅 콘텐츠
 
+### 9. [Card News Generator V2](./skills/card-news-generator/) 🆕
+배경 이미지를 지원하는 향상된 카드 뉴스 생성기입니다.
+
+**V2 새로운 기능:**
+- ✨ **배경 이미지 지원**: 폴더의 이미지를 배경으로 자동 적용
+- ✨ **Cafe24Ssurround 폰트**: 번들 폰트 포함, 별도 설치 불필요
+- ✨ **반투명 박스 + 테두리**: 텍스트 영역에 둥근 박스와 흰색 테두리
+- ✨ **컴팩트 디자인**: 정사각형에 가까운 중앙 정렬 박스
+- ✨ **오버레이 조절**: 텍스트 가독성을 위한 어두운 오버레이 (0.0-1.0)
+- ✨ **자동 텍스트 색상**: 배경 이미지 사용 시 흰색으로 자동 전환
+
+**기술 사양:**
+- 배경 이미지 자동 크롭 및 리사이징 (600x600)
+- 지원 형식: JPG, JPEG, PNG, WebP, BMP
+- macOS/Linux 자동 폰트 감지
+- 텍스트 박스 너비: 캔버스의 65% (양쪽 여백 확보)
+
+**사용 예시:**
+```bash
+python auto_generator.py \
+  --topic "서울 부동산" \
+  --image-folder ./my-images \
+  --overlay-opacity 0.6 \
+  --output-dir ./output
+```
+
+**사용 시나리오:**
+- 실제 사진을 배경으로 한 카드 뉴스
+- 여행, 부동산, 음식 등 비주얼이 중요한 콘텐츠
+- 전문적이고 세련된 디자인이 필요한 경우
+- 배경 이미지로 브랜드 아이덴티티 강화
+
 ## 스킬 사용 방법
 
 ### 설치
@@ -210,7 +242,8 @@ flutter-init
 nextjs15-init
 codex
 landing-page-guide
-card-news-generator
+card-news-generator        # 기본 단색 배경 카드 생성
+card-news-generator (V2)   # 배경 이미지 지원 (동일 스킬, 고급 기능)
 ```
 
 ## 폴더 구조
@@ -258,6 +291,7 @@ my-skills-hub/
 - [Codex 상세 정보](./skills/codex/skill.md)
 - [Landing Page Guide 상세 정보](./skills/landing-page-guide/SKILL.md)
 - [Card News Generator 상세 정보](./skills/card-news-generator/SKILL.md)
+- [Card News Generator V2 상세 정보](./skills/card-news-generator/V2_FEATURES.md)
 
 ## 기여
 

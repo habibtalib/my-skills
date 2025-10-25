@@ -1,9 +1,9 @@
 ---
-name: card-news-generator
+name: card-news-generator-v2
 description: Create 600x600 Instagram-style card news series automatically with optional background images. User provides topic, colors, and optional images - Claude generates content and creates multiple cards with proper text wrapping.
 ---
 
-# Card News Generator - Auto Mode (V2)
+# Card News Generator v2 - Auto Mode (V2)
 
 Creates beautiful 600x600 card news series for social media with **background image support**. User can provide topic, colors, and optional background images - Claude handles content generation and multi-card creation automatically.
 
