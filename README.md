@@ -1,481 +1,481 @@
 # My Skills Hub
 
-Claude Code를 위한 커스텀 스킬 모음입니다. 개발 생산성을 높이기 위한 다양한 자동화 스킬들을 제공합니다.
+A collection of custom Claude Code skills to enhance development productivity.
 
 ---
 
 <div align="center">
 
-### 🎴 카드로 배우는 개발 학습 플랫폼
+### 🎴 Learn Programming with Card-Based Platform
 
-[![CodeDeck](https://img.shields.io/badge/CodeDeck-카드로_배우는_개발_플랫폼-blue?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTUgNEgxOUMyMC4xIDQgMjEgNC45IDIxIDZWMThDMjEgMTkuMSAyMC4xIDIwIDE5IDIwSDVDMy45IDIwIDMgMTkuMSAzIDE4VjZDMyA0LjkgMy45IDQgNSA0WiIgZmlsbD0id2hpdGUiLz4KPC9zdmc+Cg==)](https://www.codedeck.kr)
+[![CodeDeck](https://img.shields.io/badge/CodeDeck-Learn_Programming_with_Cards-blue?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTUgNEgxOUMyMC4xIDQgMjEgNC45IDIxIDZWMThDMjEgMTkuMSAyMC4xIDIwIDE5IDIwSDVDMy45IDIwIDMgMTkuMSAzIDE4VjZDMyA0LjkgMy45IDQgNSA0WiIgZmlsbD0id2hpdGUiLz4KPC9zdmc+Cg==)](https://www.codedeck.kr)
 
-프로그래밍 언어와 프레임워크를 **카드 뉴스 형태**로 쉽게 배우세요!
+Learn programming languages and frameworks in **card news format**!
 `Flutter` `React` `TypeScript` `JavaScript` `Python` `Dart`
 
-**👉 [CodeDeck 바로가기](https://www.codedeck.kr)**
+**👉 [Visit CodeDeck](https://www.codedeck.kr)**
 
 </div>
 
 ---
 
-## 빠른 설치
+## Quick Installation
 
-| 스킬 이름 | 한줄 설명 | 마켓 설치 명령어 |
+| Skill Name | Description | Marketplace Install Command |
 |----------|---------|---------------|
-| **Flutter Init** | Flutter 프로젝트를 Clean Architecture로 자동 생성 | `/plugin marketplace install suji-father-marketplace@flutter-init` |
-| **Next.js 15 Init** | Next.js 15 프로젝트를 App Router로 자동 생성 | `/plugin marketplace install suji-father-marketplace@nextjs15-init` |
-| **Code Changelog** | AI 코드 변경사항을 자동 문서화하고 웹에서 실시간 확인 | `/plugin marketplace install suji-father-marketplace@code-changelog` |
-| **Codex** | OpenAI Codex CLI로 코드 분석, 리팩토링, 자동 편집 | `/plugin marketplace install suji-father-marketplace@codex` |
-| **Codex-Claude Loop** | Claude + Codex 이중 AI 엔지니어링 루프로 최고 품질 보장 | `/plugin marketplace install suji-father-marketplace@codex-claude-loop` |
-| **Meta Prompt Generator** | 구조화된 커스텀 슬래시 커맨드를 자동 생성 | `/plugin marketplace install suji-father-marketplace@meta-prompt-generator` |
-| **Prompt Enhancer** | 프로젝트 컨텍스트 분석으로 간단한 요청을 상세 요구사항으로 변환 | `/plugin marketplace install suji-father-marketplace@prompt-enhancer` |
-| **Web to Markdown** | 웹페이지를 마크다운으로 변환 (일반/AI 최적화/듀얼 모드) | `/plugin marketplace install suji-father-marketplace@web-to-markdown` |
-| **Card News Generator** | 600x600 인스타그램 스타일 카드 뉴스 시리즈 자동 생성 | `/plugin marketplace install suji-father-marketplace@card-news-generator` |
-| **Card News Generator V2** | 배경 이미지 지원 카드 뉴스 생성기 (고급 기능) | `/plugin marketplace install suji-father-marketplace@card-news-generator-v2` |
-| **Landing Page Guide** | 전환율 높은 랜딩페이지 제작 가이드 (11가지 필수 요소) | `/plugin marketplace install suji-father-marketplace@landing-page-guide` |
+| **Flutter Init** | Auto-generate Flutter projects with Clean Architecture | `/plugin marketplace install suji-father-marketplace@flutter-init` |
+| **Next.js 15 Init** | Auto-generate Next.js 15 projects with App Router | `/plugin marketplace install suji-father-marketplace@nextjs15-init` |
+| **Code Changelog** | Auto-document AI code changes and view in browser | `/plugin marketplace install suji-father-marketplace@code-changelog` |
+| **Codex** | OpenAI Codex CLI for code analysis and refactoring | `/plugin marketplace install suji-father-marketplace@codex` |
+| **Codex-Claude Loop** | Dual-AI engineering loop for highest quality code | `/plugin marketplace install suji-father-marketplace@codex-claude-loop` |
+| **Meta Prompt Generator** | Auto-generate structured custom slash commands | `/plugin marketplace install suji-father-marketplace@meta-prompt-generator` |
+| **Prompt Enhancer** | Transform simple requests into detailed requirements | `/plugin marketplace install suji-father-marketplace@prompt-enhancer` |
+| **Web to Markdown** | Convert web pages to markdown (normal/AI-optimized/dual modes) | `/plugin marketplace install suji-father-marketplace@web-to-markdown` |
+| **Card News Generator** | Auto-generate 600x600 Instagram card news series | `/plugin marketplace install suji-father-marketplace@card-news-generator` |
+| **Card News Generator V2** | Card news generator with background image support | `/plugin marketplace install suji-father-marketplace@card-news-generator-v2` |
+| **Landing Page Guide** | High-conversion landing page creation guide | `/plugin marketplace install suji-father-marketplace@landing-page-guide` |
 
-### 마켓플레이스 추가
+### Add Marketplace
 
 ```bash
 /plugin marketplace add bear2u/claude-plugins
 ```
 
-## 스킬 목록
+## Skills Overview
 
 ### 1. [Code Changelog](./skills/code-changelog/)
-AI가 생성한 모든 코드 변경사항을 자동으로 문서화하고 웹 브라우저에서 실시간으로 확인할 수 있는 스킬입니다.
+Auto-documents all AI-generated code changes and provides real-time web browser viewing.
 
-**주요 기능:**
-- 자동 문서 생성 (Markdown)
-- HTML 뷰어 (설치 불필요, Python 서버)
-- 다크 모드 UI (GitHub 스타일)
-- 실시간 서버 (http://localhost:4000)
+**Key Features:**
+- Automatic markdown documentation
+- HTML viewer (no installation, Python server)
+- Dark mode UI (GitHub style)
+- Real-time server (http://localhost:4000)
 
-**사용 시나리오:**
-- 코드 리뷰 문서 자동 생성
-- 변경 이력 추적
-- 팀원과 변경사항 공유
+**Use Cases:**
+- Auto-generate code review documentation
+- Track change history
+- Share changes with team members
 
 ### 2. [Meta Prompt Generator](./skills/meta-prompt-generator/)
-간단한 설명을 받아 단계별 병렬 처리가 가능한 구조화된 커스텀 슬래시 커맨드를 자동으로 생성합니다.
+Automatically generates structured custom slash commands with parallel processing from simple descriptions.
 
-**주요 기능:**
-- 지능형 지식 수집 (웹 검색)
-- 단계 기반 워크플로우 설계
-- 포괄적인 테스트 생성
-- 병렬 처리 최적화
+**Key Features:**
+- Intelligent knowledge gathering (web search)
+- Step-based workflow design
+- Comprehensive test generation
+- Parallel processing optimization
 
-**사용 시나리오:**
-- 복잡한 프로젝트 워크플로우 자동화
-- 재사용 가능한 슬래시 커맨드 생성
-- 체계적인 테스트 스위트 작성
+**Use Cases:**
+- Automate complex project workflows
+- Create reusable slash commands
+- Write systematic test suites
 
 ### 3. [Prompt Enhancer](./skills/prompt-enhancer/)
-프로젝트 컨텍스트를 분석하여 간단한 개발 요청을 명확하고 상세한 요구사항으로 변환합니다.
+Analyzes project context to transform simple development requests into clear, detailed requirements.
 
-**주요 기능:**
-- 프로젝트 구조 자동 분석
-- 기존 패턴 인식
-- 구조화된 요구사항 생성
-- 프레임워크별 최적화
+**Key Features:**
+- Auto-analyze project structure
+- Recognize existing patterns
+- Generate structured requirements
+- Framework-specific optimization
 
-**사용 시나리오:**
-- "로그인 기능 만들어줘" → 상세한 구현 요구사항
-- Clean Architecture 기반 설계 제안
-- 프로젝트 컨벤션 자동 적용
+**Use Cases:**
+- "Create login feature" → detailed implementation requirements
+- Clean Architecture-based design proposals
+- Auto-apply project conventions
 
-**지원 스택:**
+**Supported Stacks:**
 - Flutter (Clean Architecture, Riverpod)
 - Next.js/React (App Router, Zustand)
 - Python (Django, FastAPI)
 
 ### 4. [Flutter Init](./skills/flutter-init/)
-도메인 기반 Flutter 프로젝트를 Clean Architecture로 자동 생성합니다.
+Auto-generates domain-based Flutter projects with Clean Architecture.
 
-**주요 기능:**
-- 도메인 선택 (Todo/Habit/Note/Expense/Custom)
-- 스택 프리셋 (Minimal/Essential/Full Stack/Custom)
-- Clean Architecture 자동 생성
-- Riverpod 3.0, Drift, Freezed 설정
+**Key Features:**
+- Domain selection (Todo/Habit/Note/Expense/Custom)
+- Stack presets (Minimal/Essential/Full Stack/Custom)
+- Auto-generate Clean Architecture
+- Riverpod 3.0, Drift, Freezed setup
 
-**기술 스택:**
-- Riverpod 3.x (상태 관리)
-- Drift (로컬 데이터베이스)
-- Freezed (불변 모델)
-- Easy Localization (다국어)
+**Tech Stack:**
+- Riverpod 3.x (state management)
+- Drift (local database)
+- Freezed (immutable models)
+- Easy Localization (i18n)
 - FluentUI Icons
 
-**사용 시나리오:**
-- 새로운 Flutter 앱 빠른 시작
-- Clean Architecture 보일러플레이트
-- 도메인 중심 설계
+**Use Cases:**
+- Quick start new Flutter apps
+- Clean Architecture boilerplate
+- Domain-driven design
 
 ### 5. [Next.js 15 Init](./skills/nextjs15-init/)
-도메인 기반 Next.js 15 프로젝트를 App Router로 자동 생성합니다.
+Auto-generates domain-based Next.js 15 projects with App Router.
 
-**주요 기능:**
-- 도메인 선택 (Todo/Blog/Dashboard/E-commerce/Custom)
-- 스택 프리셋 (Minimal/Essential/Full Stack/Custom)
-- App Router 기반 구조
+**Key Features:**
+- Domain selection (Todo/Blog/Dashboard/E-commerce/Custom)
+- Stack presets (Minimal/Essential/Full Stack/Custom)
+- App Router-based structure
 - TypeScript Strict Mode
 
-**기술 스택:**
+**Tech Stack:**
 - Next.js 15 (App Router)
-- ShadCN/ui (UI 컴포넌트)
-- Zustand (클라이언트 상태)
-- Tanstack Query (서버 상태)
+- ShadCN/ui (UI components)
+- Zustand (client state)
+- Tanstack Query (server state)
 - Drizzle ORM (TypeScript ORM)
-- Better Auth (인증)
+- Better Auth (authentication)
 
-**사용 시나리오:**
-- 새로운 Next.js 앱 빠른 시작
-- 타입 안전한 풀스택 앱
-- 도메인 중심 설계
+**Use Cases:**
+- Quick start new Next.js apps
+- Type-safe full-stack apps
+- Domain-driven design
 
 ### 6. [Codex](./skills/codex/)
-OpenAI Codex CLI를 사용하여 코드 분석, 리팩토링, 자동화된 편집을 수행합니다.
+Uses OpenAI Codex CLI for code analysis, refactoring, and automated editing.
 
-**주요 기능:**
-- 대화형 모델 및 추론 레벨 선택 (gpt-5, gpt-5-codex)
-- 샌드박스 모드 (read-only, workspace-write, danger-full-access)
-- 세션 재개 기능 (codex exec resume --last)
-- 자동화된 코드 편집 (--full-auto)
+**Key Features:**
+- Interactive model and reasoning level selection (gpt-5, gpt-5-codex)
+- Sandbox modes (read-only, workspace-write, danger-full-access)
+- Session resume (codex exec resume --last)
+- Automated code editing (--full-auto)
 
-**사용 시나리오:**
-- 코드 리뷰 및 분석
-- 대규모 리팩토링 자동화
-- 코드베이스 전체 수정 작업
-- 이전 세션 이어서 작업
+**Use Cases:**
+- Code review and analysis
+- Large-scale refactoring automation
+- Codebase-wide modifications
+- Continue previous sessions
 
-**샌드박스 모드:**
-- `read-only`: 코드 분석 전용 (읽기만)
-- `workspace-write`: 로컬 파일 수정
-- `danger-full-access`: 네트워크 접근 포함 전체 권한
+**Sandbox Modes:**
+- `read-only`: Code analysis only (read-only)
+- `workspace-write`: Local file modifications
+- `danger-full-access`: Full access including network
 
 ### 6-1. [Codex-Claude Loop](./skills/codex-claude-loop/) 🔄
-Claude Code와 Codex를 결합한 이중 AI 엔지니어링 루프로 최상의 코드 품질을 보장합니다.
+Dual-AI engineering loop combining Claude Code and Codex for optimal code quality.
 
-**핵심 워크플로우:**
-- **Claude (계획 + 구현)** → **Codex (검증)** → **피드백** → **Claude (수정)** → **Codex (재검증)** → **반복**
-- Claude가 모든 코드 작성, Codex가 모든 검증 담당
-- 자체 수정 시스템으로 고품질 엔지니어링
+**Core Workflow:**
+- **Claude (Plan + Implement)** → **Codex (Validate)** → **Feedback** → **Claude (Fix)** → **Codex (Re-validate)** → **Repeat**
+- Claude handles all code writing, Codex handles all validation
+- Self-correcting system for high-quality engineering
 
-**주요 기능:**
-- 계획 단계: Claude가 아키텍처와 구현 계획 수립
-- 검증 단계: Codex가 계획의 로직 에러, 보안 취약점 검토
-- 구현 단계: Claude가 검증된 계획으로 코드 작성 (Edit/Write 도구 사용)
-- 코드 리뷰: Codex가 구현된 코드의 버그, 성능, 보안 검증
-- 수정 반영: Claude가 Codex 피드백 기반으로 코드 수정
-- 재검증: Codex가 수정사항 확인
+**Key Features:**
+- Planning Phase: Claude establishes architecture and implementation plan
+- Validation Phase: Codex reviews plan for logic errors and security vulnerabilities
+- Implementation Phase: Claude writes code using Edit/Write tools
+- Code Review: Codex validates implementation for bugs, performance, security
+- Fix Application: Claude fixes code based on Codex feedback
+- Re-validation: Codex confirms fixes
 
-**언제 사용하나요:**
-- ✅ 복잡한 기능 개발 (여러 단계)
-- ✅ 보안/성능이 중요한 작업
-- ✅ 대규모 리팩토링
-- ✅ 높은 코드 품질이 필요할 때
-- ❌ 간단한 일회성 수정 (과함)
-- ❌ 프로토타입/실험 코드 (과함)
+**When to Use:**
+- ✅ Complex feature development (multiple steps)
+- ✅ Security/performance critical tasks
+- ✅ Large-scale refactoring
+- ✅ When high code quality is required
+- ❌ Simple one-off fixes (overkill)
+- ❌ Prototype/experimental code (overkill)
 
-**실전 예시:**
+**Practical Example:**
 ```bash
-# 1. Claude가 OAuth 2.0 로그인 계획 수립
-# 2. Codex로 계획 검증
+# 1. Claude creates OAuth 2.0 login plan
+# 2. Validate plan with Codex
 echo "Review this plan..." | codex exec -m gpt-5-codex --config model_reasoning_effort="high" --sandbox read-only
 
-# 3. Claude가 검증된 계획으로 구현 (Edit/Write 도구 사용)
-# 4. Codex가 구현된 코드 리뷰
+# 3. Claude implements with validated plan (Edit/Write tools)
+# 4. Codex reviews implementation
 echo "Review implementation..." | codex exec --sandbox read-only
 
-# 5. Claude가 피드백 반영하여 코드 수정
-# 6. Codex가 재검증
+# 5. Claude applies feedback fixes
+# 6. Codex re-validates
 echo "Verify fixes..." | codex exec resume --last
 ```
 
-**역할 분담:**
-- **Claude**: 모든 코드 작성 및 수정
-- **Codex**: 모든 검증 및 리뷰
+**Role Division:**
+- **Claude**: All code writing and modification
+- **Codex**: All validation and review
 
-**명령어 레퍼런스:**
-- 계획 검증: `codex exec -m gpt-5-codex --sandbox read-only`
-- 코드 리뷰: `codex exec --sandbox read-only`
-- 재검증: `codex exec resume --last` (설정 자동 상속)
+**Command Reference:**
+- Plan validation: `codex exec -m gpt-5-codex --sandbox read-only`
+- Code review: `codex exec --sandbox read-only`
+- Re-validation: `codex exec resume --last` (auto-inherits settings)
 
-**모델 선택 가이드:**
-- `gpt-5`: 빠른 일반 작업
-- `gpt-5-codex`: 복잡한 코드 분석 (권장)
+**Model Selection Guide:**
+- `gpt-5`: Fast general tasks
+- `gpt-5-codex`: Complex code analysis (recommended)
 
 **Reasoning Effort:**
-- `low`: 간단한 검증
-- `medium`: 일반적인 작업 (권장)
-- `high`: 보안/critical 로직
+- `low`: Simple validation
+- `medium`: General tasks (recommended)
+- `high`: Security/critical logic
 
 ### 7. [Landing Page Guide](./skills/landing-page-guide/)
-Next.js와 React로 고품질 전환율 높은 랜딩페이지를 제작하기 위한 종합 가이드입니다.
+Comprehensive guide for creating high-conversion landing pages with Next.js and React.
 
-**주요 기능:**
-- DESIGNNAS의 11가지 필수 요소 프레임워크 적용
-- ShadCN UI 컴포넌트 통합
-- SEO 최적화 및 접근성 표준 준수
-- 반응형 디자인 및 성능 최적화
+**Key Features:**
+- DESIGNNAS 11 essential elements framework
+- ShadCN UI component integration
+- SEO optimization and accessibility standards
+- Responsive design and performance optimization
 
-**11가지 필수 요소:**
-1. 키워드가 포함된 URL
-2. 회사 로고 (상단 왼쪽)
-3. SEO 최적화된 제목과 부제목
-4. 주요 CTA (히어로 섹션)
-5. 사회적 증거 (리뷰, 통계)
-6. 이미지 또는 동영상
-7. 핵심 이점/기능 (3-6개)
-8. 고객 후기 (4-6개)
-9. FAQ 섹션 (5-10개 질문)
-10. 최종 CTA (하단)
-11. 연락처 정보 및 법적 페이지
+**11 Essential Elements:**
+1. Keyword-rich URL
+2. Company logo (top left)
+3. SEO-optimized title and subtitle
+4. Primary CTA (hero section)
+5. Social proof (reviews, statistics)
+6. Images or videos
+7. Key benefits/features (3-6 items)
+8. Customer testimonials (4-6 items)
+9. FAQ section (5-10 questions)
+10. Final CTA (bottom)
+11. Contact info and legal pages
 
-**기술 스택:**
+**Tech Stack:**
 - Next.js 14+ (App Router)
 - TypeScript
 - Tailwind CSS
 - ShadCN UI
 
-**사용 시나리오:**
-- 마케팅 랜딩 페이지 제작
-- 제품 소개 페이지 개발
-- 전환율 최적화가 필요한 프로모션 페이지
-- SaaS/이커머스/서비스/이벤트 랜딩 페이지
+**Use Cases:**
+- Marketing landing pages
+- Product introduction pages
+- Conversion-optimized promotion pages
+- SaaS/E-commerce/Service/Event landing pages
 
 ### 8. [Card News Generator](./skills/card-news-generator/)
-600x600 인스타그램 스타일 카드 뉴스 시리즈를 자동으로 생성합니다.
+Auto-generates 600x600 Instagram-style card news series.
 
-**주요 기능:**
-- 주제와 색상만 입력하면 자동 생성
-- 5-7장의 카드 시리즈 자동 제작
-- 자동 텍스트 래핑 및 레이아웃
-- RGB to Hex 색상 변환
-- 단일 카드/멀티 카드 모드
+**Key Features:**
+- Input topic and colors to auto-generate
+- Auto-create 5-7 card series
+- Auto text wrapping and layout
+- RGB to Hex color conversion
+- Single card/multi-card modes
 
-**캔버스 사양:**
-- 크기: 600x600 픽셀 (인스타그램 최적화)
-- 자동 텍스트 줄바꿈
-- 번호 배지, 제목, 본문 계층 구조
-- 다양한 색상 프리셋 제공
+**Canvas Specs:**
+- Size: 600x600 pixels (Instagram optimized)
+- Auto text line breaks
+- Number badge, title, content hierarchy
+- Various color presets
 
-**권장 색상:**
-- 베이지: `245,243,238`
-- 핑크: `255,229,229`
-- 민트: `224,244,241`
-- 라벤더: `232,224,245`
-- 피치: `255,232,214`
-- 스카이 블루: `227,242,253`
+**Recommended Colors:**
+- Beige: `245,243,238`
+- Pink: `255,229,229`
+- Mint: `224,244,241`
+- Lavender: `232,224,245`
+- Peach: `255,232,214`
+- Sky Blue: `227,242,253`
 
-**사용 시나리오:**
-- 소셜 미디어 카드 뉴스 제작
-- 인스타그램 콘텐츠 시리즈
-- 정보 전달용 카드 이미지
-- 교육/마케팅 콘텐츠
+**Use Cases:**
+- Social media card news
+- Instagram content series
+- Information delivery card images
+- Educational/marketing content
 
-### 9. [Card News Generator V2](./skills/card-news-generator/) 🆕
-배경 이미지를 지원하는 향상된 카드 뉴스 생성기입니다.
+### 9. [Card News Generator V2](./skills/card-news-generator-v2/) 🆕
+Enhanced card news generator with background image support.
 
-**V2 새로운 기능:**
-- ✨ **배경 이미지 지원**: 폴더의 이미지를 배경으로 자동 적용
-- ✨ **Cafe24Ssurround 폰트**: 번들 폰트 포함, 별도 설치 불필요
-- ✨ **반투명 박스 + 테두리**: 텍스트 영역에 둥근 박스와 흰색 테두리
-- ✨ **컴팩트 디자인**: 정사각형에 가까운 중앙 정렬 박스
-- ✨ **오버레이 조절**: 텍스트 가독성을 위한 어두운 오버레이 (0.0-1.0)
-- ✨ **자동 텍스트 색상**: 배경 이미지 사용 시 흰색으로 자동 전환
+**V2 New Features:**
+- ✨ **Background Image Support**: Auto-apply folder images as backgrounds
+- ✨ **Cafe24Ssurround Font**: Bundled font, no installation needed
+- ✨ **Translucent Box + Border**: Rounded box with white border for text area
+- ✨ **Compact Design**: Center-aligned box close to square shape
+- ✨ **Overlay Control**: Dark overlay for text readability (0.0-1.0)
+- ✨ **Auto Text Color**: Auto-switch to white when using background images
 
-**기술 사양:**
-- 배경 이미지 자동 크롭 및 리사이징 (600x600)
-- 지원 형식: JPG, JPEG, PNG, WebP, BMP
-- macOS/Linux 자동 폰트 감지
-- 텍스트 박스 너비: 캔버스의 65% (양쪽 여백 확보)
+**Technical Specs:**
+- Auto-crop and resize background images (600x600)
+- Supported formats: JPG, JPEG, PNG, WebP, BMP
+- macOS/Linux auto font detection
+- Text box width: 65% of canvas (margins on both sides)
 
-**사용 예시:**
+**Usage Example:**
 ```bash
 python auto_generator.py \
-  --topic "서울 부동산" \
+  --topic "Seoul Real Estate" \
   --image-folder ./my-images \
   --overlay-opacity 0.6 \
   --output-dir ./output
 ```
 
-**사용 시나리오:**
-- 실제 사진을 배경으로 한 카드 뉴스
-- 여행, 부동산, 음식 등 비주얼이 중요한 콘텐츠
-- 전문적이고 세련된 디자인이 필요한 경우
-- 배경 이미지로 브랜드 아이덴티티 강화
+**Use Cases:**
+- Card news with real photos as backgrounds
+- Visual-important content (travel, real estate, food)
+- Professional and polished design needs
+- Strengthen brand identity with background images
 
 ### 10. [Web to Markdown](./skills/web-to-markdown/) 🌐
-웹페이지 URL을 마크다운 형식으로 변환하여 저장하는 스킬입니다.
+Converts web page URLs to markdown format and saves them.
 
-**주요 기능:**
-- 3가지 변환 모드 지원
-  - **일반 모드**: 읽기 좋은 마크다운 변환
-  - **AI 최적화 모드**: AI 컨텍스트용 구조화된 형태 (YAML 프론트매터, 핵심 요약 포함)
-  - **듀얼 모드**: 원본 + AI 최적화 버전 2개 파일 동시 생성 ⭐
-- **동적 콘텐츠 처리 ⭐ NEW**
-  - WebFetch로 가져오지 못한 JavaScript 렌더링 페이지 자동 감지
-  - Playwright로 브라우저 실행하여 동적 콘텐츠 가져오기
-  - MCP Playwright 또는 Node Playwright 지원
-- 여러 URL 일괄 변환
-- 특정 섹션만 추출
-- 마크다운 포맷 커스터마이징
-- WebFetch 자동 캐싱 (15분)
+**Key Features:**
+- 3 conversion modes supported
+  - **Normal Mode**: Clean markdown conversion
+  - **AI-Optimized Mode**: Structured format for AI context (YAML frontmatter, core summary)
+  - **Dual Mode**: Generate both original + AI-optimized versions simultaneously ⭐
+- **Dynamic Content Handling ⭐ NEW**
+  - Auto-detect JavaScript-rendered pages failed by WebFetch
+  - Run browser with Playwright to fetch dynamic content
+  - Supports MCP Playwright or Node Playwright
+- Batch convert multiple URLs
+- Extract specific sections only
+- Customize markdown formatting
+- WebFetch auto-caching (15 minutes)
 
-**변환 모드:**
+**Conversion Modes:**
 ```
-# 일반 모드
-웹페이지를 마크다운으로 변환해줘
+# Normal mode
+Convert this webpage to markdown
 
-# AI 최적화 모드
-AI가 읽기 좋게 변환해줘
-컨텍스트로 사용하기 좋게 변환해줘
+# AI-optimized mode
+Convert for AI to read easily
+Convert to be good for context
 
-# 듀얼 모드 (권장)
-원본이랑 AI 최적화 버전 둘 다 만들어줘
+# Dual mode (recommended)
+Create both original and AI-optimized versions
 ```
 
-**AI 최적화 모드 특징:**
-- YAML 프론트매터 (제목, URL, 주제, 핵심 요약 등)
-- 구조화된 섹션 (핵심 요약, 주요 내용, 인사이트, 실용적 적용)
-- 토큰 30-50% 절감
-- AI가 3초 안에 핵심 파악 가능
+**AI-Optimized Mode Features:**
+- YAML frontmatter (title, URL, topic, core summary, etc.)
+- Structured sections (core summary, main content, insights, practical applications)
+- 30-50% token reduction
+- AI can grasp core in under 3 seconds
 
-**파일명 규칙:**
-- 원본: `article.md`
-- AI 최적화: `article.context.md`
+**Filename Convention:**
+- Original: `article.md`
+- AI-optimized: `article.context.md`
 
-**사용 시나리오:**
-- 기술 문서 아카이빙
-- 블로그 글 백업
-- 학습 자료 구축
-- RAG 시스템용 데이터 준비
-- AI 에이전트 컨텍스트 자료 생성
+**Use Cases:**
+- Archive technical documentation
+- Backup blog posts
+- Build learning materials
+- Prepare data for RAG systems
+- Generate AI agent context materials
 
-**사용 예시:**
+**Usage Examples:**
 ```
-# 듀얼 모드
-User: https://docs.python.org/3/tutorial 원본이랑 AI 최적화 버전 둘 다 만들어줘
+# Dual mode
+User: https://docs.python.org/3/tutorial Create both original and AI-optimized versions
 
-Claude: 듀얼 모드로 변환하겠습니다.
-- python-tutorial.md (원본 - 사람이 읽기 좋음)
-- python-tutorial.context.md (AI 최적화 - 컨텍스트용)
+Claude: Converting in dual mode.
+- python-tutorial.md (original - human-readable)
+- python-tutorial.context.md (AI-optimized - for context)
 
-# 동적 콘텐츠 (NEW)
-User: https://www.codedeck.kr/card-news/xxx 마크다운으로 변환해줘
+# Dynamic content (NEW)
+User: https://www.codedeck.kr/card-news/xxx Convert to markdown
 
-Claude: [WebFetch 시도]
-        ⚠️ 내용이 거의 비어있네요. JavaScript 렌더링 페이지인 것 같습니다.
-        Playwright로 재시도할까요?
+Claude: [WebFetch attempt]
+        ⚠️ Content is mostly empty. Looks like a JavaScript-rendered page.
+        Retry with Playwright?
 
 User: Yes
 
-Claude: ⏳ Playwright로 페이지 로딩...
-        ✅ JavaScript 렌더링 완료
-        ✅ 마크다운 변환 완료 (1,442줄)
+Claude: ⏳ Loading page with Playwright...
+        ✅ JavaScript rendering complete
+        ✅ Markdown conversion complete (1,442 lines)
 ```
 
-## 스킬 사용 방법
+## How to Use Skills
 
-### 방법 1: 마켓플레이스를 통한 설치 (권장)
+### Method 1: Install via Marketplace (Recommended)
 
-#### 1. 마켓플레이스 추가
+#### 1. Add Marketplace
 
 ```bash
 /plugin marketplace add bear2u/claude-plugins
 ```
 
-#### 2. 사용 가능한 플러그인 확인
+#### 2. Check Available Plugins
 
 ```bash
 /plugin marketplace list
 ```
 
-#### 3. 원하는 플러그인 설치
+#### 3. Install Desired Plugin
 
 ```bash
-# Flutter 프로젝트 초기화
+# Flutter project initialization
 /plugin marketplace install suji-father-marketplace@flutter-init
 
-# Next.js 15 프로젝트 초기화
+# Next.js 15 project initialization
 /plugin marketplace install suji-father-marketplace@nextjs15-init
 
-# 코드 변경사항 자동 문서화
+# Auto-document code changes
 /plugin marketplace install suji-father-marketplace@code-changelog
 
-# Codex CLI 통합
+# Codex CLI integration
 /plugin marketplace install suji-father-marketplace@codex
 
-# Codex-Claude 이중 AI 루프
+# Codex-Claude dual AI loop
 /plugin marketplace install suji-father-marketplace@codex-claude-loop
 
-# 메타 프롬프트 생성기
+# Meta prompt generator
 /plugin marketplace install suji-father-marketplace@meta-prompt-generator
 
-# 프롬프트 향상기
+# Prompt enhancer
 /plugin marketplace install suji-father-marketplace@prompt-enhancer
 
-# 웹페이지 마크다운 변환
+# Web page markdown conversion
 /plugin marketplace install suji-father-marketplace@web-to-markdown
 
-# 카드 뉴스 생성기
+# Card news generator
 /plugin marketplace install suji-father-marketplace@card-news-generator
 
-# 카드 뉴스 생성기 V2 (배경 이미지 지원)
+# Card news generator V2 (background image support)
 /plugin marketplace install suji-father-marketplace@card-news-generator-v2
 
-# 랜딩페이지 가이드
+# Landing page guide
 /plugin marketplace install suji-father-marketplace@landing-page-guide
 ```
 
-#### 4. 설치된 플러그인 확인
+#### 4. Check Installed Plugins
 
 ```bash
 /plugin list
 ```
 
-#### 5. 플러그인 업데이트
+#### 5. Update Plugins
 
 ```bash
-# 특정 플러그인 업데이트
+# Update specific plugin
 /plugin update suji-father-marketplace@flutter-init
 
-# 또는 모든 플러그인 업데이트
+# Or update all plugins
 /plugin update
 ```
 
-#### 6. 플러그인 삭제
+#### 6. Remove Plugins
 
 ```bash
-# 특정 플러그인 삭제
+# Remove specific plugin
 /plugin remove flutter-init
 
-# 또는 마켓플레이스 전체 삭제
+# Or remove entire marketplace
 /plugin marketplace remove suji-father-marketplace
 ```
 
-### 방법 2: 수동 설치
+### Method 2: Manual Installation
 
-1. 스킬을 Claude Code 스킬 디렉토리로 복사:
+1. Copy skills to Claude Code skills directory:
 
 ```bash
-# 유저 스킬로 설치 (전역)
+# Install as user skills (global)
 cp -r skills/* ~/.claude/skills/
 
-# 또는 프로젝트 스킬로 설치 (프로젝트별)
+# Or install as project skills (project-specific)
 cp -r skills/* ./.claude/skills/
 ```
 
-2. Claude Code에서 스킬 확인:
+2. Check skills in Claude Code:
 
 ```
 /skills
 ```
 
-### 실행
+### Running Skills
 
-각 스킬은 스킬 이름으로 실행할 수 있습니다:
+Each skill can be run by its skill name:
 
 ```
 code-changelog
@@ -484,79 +484,79 @@ prompt-enhancer
 flutter-init
 nextjs15-init
 codex
-codex-claude-loop          # Claude + Codex 이중 AI 루프
+codex-claude-loop          # Claude + Codex dual AI loop
 landing-page-guide
-card-news-generator        # 기본 단색 배경 카드 생성
-card-news-generator (V2)   # 배경 이미지 지원 (동일 스킬, 고급 기능)
-web-to-markdown            # 웹페이지를 마크다운으로 변환
+card-news-generator        # Basic solid background cards
+card-news-generator (V2)   # Background image support (same skill, advanced features)
+web-to-markdown            # Convert web pages to markdown
 ```
 
-## 폴더 구조
+## Folder Structure
 
 ```
 my-skills-hub/
 ├── skills/
-│   ├── code-changelog/          # 코드 변경사항 자동 문서화
-│   │   ├── skill.md             # 스킬 설명
-│   │   └── ...                  # 스킬 파일들
-│   ├── meta-prompt-generator/   # 메타 프롬프트 생성기
+│   ├── code-changelog/          # Auto-document code changes
+│   │   ├── skill.md             # Skill definition
+│   │   └── ...                  # Skill files
+│   ├── meta-prompt-generator/   # Meta prompt generator
 │   │   ├── skill.md
 │   │   └── ...
-│   ├── prompt-enhancer/         # 프롬프트 향상기
+│   ├── prompt-enhancer/         # Prompt enhancer
 │   │   ├── skill.md
 │   │   └── ...
-│   ├── flutter-init/            # Flutter 프로젝트 생성
+│   ├── flutter-init/            # Flutter project generator
 │   │   ├── skill.md
 │   │   └── ...
-│   ├── nextjs15-init/           # Next.js 15 프로젝트 생성
+│   ├── nextjs15-init/           # Next.js 15 project generator
 │   │   ├── skill.md
 │   │   └── ...
-│   ├── codex/                   # Codex CLI 코드 리뷰/분석
+│   ├── codex/                   # Codex CLI code review/analysis
 │   │   └── skill.md
-│   ├── codex-claude-loop/       # Claude + Codex 이중 AI 엔지니어링 루프
+│   ├── codex-claude-loop/       # Claude + Codex dual AI engineering loop
 │   │   ├── SKILL.md
 │   │   └── README.md
-│   ├── landing-page-guide/      # 랜딩페이지 제작 가이드
+│   ├── landing-page-guide/      # Landing page creation guide
 │   │   ├── SKILL.md
 │   │   └── references/
 │   │       ├── 11-essential-elements.md
 │   │       └── component-examples.md
-│   ├── card-news-generator/     # 카드 뉴스 자동 생성
+│   ├── card-news-generator/     # Auto card news generation
 │   │   ├── SKILL.md
 │   │   └── ...
-│   └── web-to-markdown/         # 웹페이지 마크다운 변환
+│   └── web-to-markdown/         # Web page markdown conversion
 │       ├── SKILL.md
 │       └── ...
-└── README.md                     # 이 파일
+└── README.md                     # This file
 ```
 
-## 스킬별 상세 정보
+## Skill Details
 
-각 스킬 폴더의 `skill.md` 파일에서 더 자세한 정보를 확인할 수 있습니다:
+See each skill folder's `skill.md` file for detailed information:
 
-- [Code Changelog 상세 정보](./skills/code-changelog/skill.md)
-- [Meta Prompt Generator 상세 정보](./skills/meta-prompt-generator/skill.md)
-- [Prompt Enhancer 상세 정보](./skills/prompt-enhancer/skill.md)
-- [Flutter Init 상세 정보](./skills/flutter-init/skill.md)
-- [Next.js 15 Init 상세 정보](./skills/nextjs15-init/skill.md)
-- [Codex 상세 정보](./skills/codex/skill.md)
-- [Codex-Claude Loop 상세 정보](./skills/codex-claude-loop/SKILL.md)
-- [Codex-Claude Loop 사용법](./skills/codex-claude-loop/README.md)
-- [Landing Page Guide 상세 정보](./skills/landing-page-guide/SKILL.md)
-- [Card News Generator 상세 정보](./skills/card-news-generator/SKILL.md)
-- [Card News Generator V2 상세 정보](./skills/card-news-generator/V2_FEATURES.md)
-- [Web to Markdown 상세 정보](./.claude/skills/web-to-markdown/SKILL.md)
+- [Code Changelog Details](./skills/code-changelog/skill.md)
+- [Meta Prompt Generator Details](./skills/meta-prompt-generator/skill.md)
+- [Prompt Enhancer Details](./skills/prompt-enhancer/skill.md)
+- [Flutter Init Details](./skills/flutter-init/skill.md)
+- [Next.js 15 Init Details](./skills/nextjs15-init/skill.md)
+- [Codex Details](./skills/codex/skill.md)
+- [Codex-Claude Loop Details](./skills/codex-claude-loop/SKILL.md)
+- [Codex-Claude Loop Usage](./skills/codex-claude-loop/README.md)
+- [Landing Page Guide Details](./skills/landing-page-guide/SKILL.md)
+- [Card News Generator Details](./skills/card-news-generator/SKILL.md)
+- [Card News Generator V2 Details](./skills/card-news-generator/V2_FEATURES.md)
+- [Web to Markdown Details](./.claude/skills/web-to-markdown/SKILL.md)
 
-## 기여
+## Contributing
 
-새로운 스킬을 추가하거나 기존 스킬을 개선하고 싶으시다면:
+To add new skills or improve existing ones:
 
-1. `skills/` 폴더에 새로운 스킬 디렉토리 생성
-2. `skill.md` 파일 작성 (스킬 메타데이터 및 설명)
-3. 필요한 파일들 추가
-4. README.md에 스킬 정보 추가
+1. Create new skill directory in `skills/`
+2. Write `skill.md` file (skill metadata and description)
+3. Add necessary files
+4. Add skill info to README.md
 
-## 라이선스
+## License
 
 MIT License
 
@@ -565,69 +565,69 @@ MIT License
 ### [1.5.0] - 2025-11-07
 
 #### Added
-- **web-to-markdown**: 동적 콘텐츠 처리 기능 추가 ⭐
-  - WebFetch 실패 시 Playwright 자동 폴백
-  - MCP Playwright 및 Node Playwright 지원
-  - JavaScript 렌더링 페이지 자동 감지
-  - AskUserQuestion으로 사용자 확인 프로세스
-- **SKILL_DISTRIBUTION_GUIDE.md**: NPM 패키지로 스킬 배포하는 완전 가이드 추가
-  - NPM 패키지 구조 만들기
-  - 첫 배포 및 업데이트 방법
-  - 버전 관리 Best Practices
-  - FAQ 및 실전 예제
+- **web-to-markdown**: Dynamic content handling feature ⭐
+  - Automatic Playwright fallback when WebFetch fails
+  - MCP Playwright and Node Playwright support
+  - Auto-detect JavaScript-rendered pages
+  - User confirmation process with AskUserQuestion
+- **SKILL_DISTRIBUTION_GUIDE.md**: Complete guide for distributing skills as NPM packages
+  - Create NPM package structure
+  - First deployment and update methods
+  - Version management best practices
+  - FAQ and practical examples
 
 #### Changed
-- **README.md**: web-to-markdown 스킬 설명에 동적 콘텐츠 처리 기능 추가
-- **README.md**: 동적 콘텐츠 사용 예시 추가
+- **README.md**: Added dynamic content handling feature to web-to-markdown description
+- **README.md**: Added dynamic content usage examples
 
 #### Technical Details
-- Playwright를 통한 Chromium 브라우저 자동화
-- Cheerio를 통한 HTML 파싱 및 마크다운 변환
-- React, Vue, Next.js 등 SPA 페이지 완벽 지원
+- Chromium browser automation via Playwright
+- HTML parsing and markdown conversion via Cheerio
+- Perfect support for SPA pages (React, Vue, Next.js)
 
 ### [1.4.0] - 2025-10-29
 
 #### Added
-- **card-news-generator-v2**: 배경 이미지 지원 기능
-- **landing-page-guide**: 전환율 높은 랜딩페이지 제작 가이드
-- **midjourney-cardnews-bg**: Midjourney 프롬프트 생성 스킬
+- **card-news-generator-v2**: Background image support
+- **landing-page-guide**: High-conversion landing page creation guide
+- **midjourney-cardnews-bg**: Midjourney prompt generation skill
 
 ### [1.3.0] - 2025-10-27
 
 #### Added
-- **codex-claude-cursor-loop**: Claude + Codex + Cursor 3중 AI 루프
-- **codex-claude-loop**: Claude + Codex 이중 AI 엔지니어링 루프
+- **codex-claude-cursor-loop**: Claude + Codex + Cursor triple AI loop
+- **codex-claude-loop**: Claude + Codex dual AI engineering loop
 
 ### [1.2.0] - 2025-10-25
 
 #### Added
-- **web-to-markdown**: 웹페이지 마크다운 변환 스킬
-  - 일반 모드
-  - AI 최적화 모드
-  - 듀얼 모드
-- **card-news-generator-v2**: 배경 이미지 지원 버전
+- **web-to-markdown**: Web page markdown conversion skill
+  - Normal mode
+  - AI-optimized mode
+  - Dual mode
+- **card-news-generator-v2**: Background image support version
 
 ### [1.1.0] - 2025-10-23
 
 #### Added
-- **flutter-init**: Flutter Clean Architecture 프로젝트 생성
-- **nextjs15-init**: Next.js 15 App Router 프로젝트 생성
-- **code-changelog**: AI 코드 변경사항 자동 문서화
-- **meta-prompt-generator**: 구조화된 커스텀 슬래시 커맨드 생성
-- **prompt-enhancer**: 프로젝트 컨텍스트 기반 프롬프트 향상
+- **flutter-init**: Flutter Clean Architecture project generation
+- **nextjs15-init**: Next.js 15 App Router project generation
+- **code-changelog**: AI code change auto-documentation
+- **meta-prompt-generator**: Structured custom slash command generation
+- **prompt-enhancer**: Project context-based prompt enhancement
 
 ### [1.0.0] - 2025-10-20
 
 #### Added
-- 초기 릴리즈
-- **card-news-generator**: 인스타그램 카드 뉴스 생성
-- **codex**: OpenAI Codex CLI 통합
-- 마켓플레이스 설정 및 배포
+- Initial release
+- **card-news-generator**: Instagram card news generation
+- **codex**: OpenAI Codex CLI integration
+- Marketplace setup and deployment
 
 ---
 
-## 참고
+## References
 
-이 스킬들은 Claude Code의 공식 문서를 참고하여 작성되었습니다:
+These skills were created with reference to Claude Code official documentation:
 - [Claude Code Documentation](https://docs.claude.com/en/docs/claude-code)
 - [Keep a Changelog](https://keepachangelog.com/)
